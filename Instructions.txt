@@ -1,0 +1,20 @@
+Step-1 
+Install laravel: composer create-project laravel/laravel example-app
+Step-2 Install laravel UI Package
+composer require laravel/ui
+Step-3 Install Bootstrap Laravel Package
+php artisan ui bootstrap --auth
+Step-4 Install vue UI Package
+php artisan ui vue --auth
+Step-5 Install Node Package Manager
+install npm
+Step-6 Run npm
+npm run dev
+Step-7 After npm dev if other package require then install like
+ npm install vue-loader@^15.9.7 --save-dev --legacy-peer-deps
+ npm update vue-loader
+
+
+
+
+
