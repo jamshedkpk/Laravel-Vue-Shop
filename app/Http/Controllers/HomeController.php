@@ -24,7 +24,7 @@ return view('product');
 }
 else
 {
-    return view('product');
+return view('product');
 }
 }
 }

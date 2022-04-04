@@ -2,7 +2,7 @@
 @include("user.layout.header")
 <!-- End of header-->
 <!-- Start of preloader-->
-@include("user.layout.preloader")
+{{-- @include("user.layout.preloader") --}}
 <!-- Start of preloader-->
 
 <!-- Start of navbar-->
@@ -10,19 +10,19 @@
 <!-- End of navbar-->
 
 <!-- Start of slider-->
-@include("user.layout.slider")
+{{-- @include("user.layout.slider") --}}
 <!-- End of slider-->
 
 <!-- Start of discount part-->
-@include("user.layout.discount")
+{{-- @include("user.layout.discount") --}}
 <!-- End of discount part-->
 
 <!-- Start of product page-->
-@include("user.layout.product")
+@yield('product')
 <!-- End of product page-->
 
 <!-- Start of services -->
-@include("user.layout.services")
+{{-- @include("user.layout.services") --}}
 <!-- End of Services -->
 
 <!-- Start of showcase part-->
@@ -38,11 +38,11 @@
 <!-- Start of testimonial part-->
 
 <!-- Start of blog part-->
-@include("user.layout.blog")
+{{-- @include("user.layout.blog") --}}
 <!-- End of blog part-->
 
 <!-- Start of contact part-->
-@include("user.layout.contact")
+{{-- @include("user.layout.contact") --}}
 <!-- Start of contact part-->
 
 <!-- Start of footer-->

@@ -38,6 +38,8 @@
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="{{ asset('user_template/assets/css/responsive.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 
 </head>
 <body>

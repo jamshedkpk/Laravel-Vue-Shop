@@ -19,7 +19,5 @@ else
 return view('product');
 }
 }
-
 }
-
 }
